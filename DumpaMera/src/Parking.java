@@ -1,19 +1,19 @@
 
 //abstract class
 public abstract class  Parking {
-        private String namePaking;
+        private String nameParking;
         private int SizeParking;
 
         public Parking() {
 
         }
 
-        public abstract void NamePaking() ;
+        public abstract void NameParking() ;
 
 
 
-        public void setNamePaking(String namePaking) {
-                this.namePaking = namePaking;
+        public void setNameParking(String namePaking) {
+                this.nameParking = namePaking;
         }
 
         public int getSizeParking() {
@@ -27,7 +27,7 @@ public abstract class  Parking {
         @Override
         public String toString() {
                 return "Parking{" +
-                        "namePaking='" + namePaking + '\'' +
+                        "nameParking='" + nameParking + '\'' +
                         ", SizeParking=" + SizeParking +
                         '}';
         }
